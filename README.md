@@ -38,13 +38,14 @@ cp .env.example .env      # then paste your bot token into it
 npm run start:env
 ```
 
-**Or hard-code** the token in `config.js` and run `npm start`.
+**Add** bot token in `config.js` 
 
-Either way, edit `config.js`:
+You can also edit `config.js` to change:
 - `ENABLED_CHANNEL_IDS` — channels the AI persona chats in (right-click channel → Copy Channel ID; enable Developer Mode first)
-- `PERSONA` — the character the bot role-plays as
+- `PERSONA` — the character the bot role-plays as if you wanna use the chatbot
 - `AI_MODEL` — must match a model you've pulled in Ollama
-- `COMMAND_PREFIX` / `CURRENCY_NAME` / `CURRENCY_EMOJI` — gambling settings
+- `COMMAND_PREFIX` / `CURRENCY_NAME` / `CURRENCY_EMOJI` — eco settings
+(the config has a lot more than this, this is just the basics)
 
 To change the **daily amount, rob chance, or rob cooldown**, edit the constants
 at the top of `economy.js`:
