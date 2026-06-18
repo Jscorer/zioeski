@@ -32,14 +32,7 @@ npm install
 
 ## 3. Configure
 
-**Recommended — .env file:**
-```bash
-cp .env.example .env      # then paste your bot token into it
-npm run start:env
-```
-
 **Add** bot token in `config.js` 
-
 You can also edit `config.js` to change:
 - `ENABLED_CHANNEL_IDS` — channels the AI persona chats in (right-click channel → Copy Channel ID; enable Developer Mode first)
 - `PERSONA` — the character the bot role-plays as if you wanna use the chatbot
