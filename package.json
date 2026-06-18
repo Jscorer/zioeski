@@ -1,0 +1,17 @@
+{
+  "name": "eski-discord-bot",
+  "version": "3.2.0",
+  "description": "Autonomous personality chat bot for Discord (Ollama) with a full economy: gambling, crime + police heat, businesses and houses. Converted from a self-bot to a proper Developer Portal bot.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "start:env": "node -r dotenv/config bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
